@@ -1,0 +1,131 @@
+#Titulo {
+    color: tomato;
+
+}
+p.especial{
+    color:mediumaquamarine;
+}
+p.texto{
+    color: blue;
+}
+
+div p{
+    color: aqua;
+}
+div h2, div h3 {
+    color: brown;
+}
+
+/* *{
+    font-size: 24px;
+    color: black;
+} */
+/* Esto es un comentario*/ 
+/*
+.color {
+    color: #ff0000;
+}
+*/
+/*.color {
+    color: rgb(0, 2, 255);
+}*/
+
+.color{
+ /*    border: 5px black solid; */
+ /*
+dotted
+dashed
+solid
+double
+groove
+ridge
+insert
+ourset
+none
+hidden
+*/
+border-style: solid;
+border-color: blue;
+border-radius: 5px;
+border-width: 2rem;
+
+}
+#fondo {
+    background-color:rgb(255, 0, 0) ;
+  /*   opacity: 0.3; */
+  height: 100px ;
+/*   background-image: url(img/anime1.png  );  */
+/*   background-repeat: repeat-y;
+  background-position: center top; */
+  background: #f00 url(img/anime1.png) repeat-y center bottom / 100px 100px;
+
+}
+.margen {
+    background-color: chocolate  ;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 20px 25px 15px;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+     
+
+}
+.text {   
+     text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px;
+
+}
+ a:link {
+    color: blueviolet;
+ }
+ a:visited{
+    color: gray;
+ }
+ a:active{
+    color: red;
+ }
+
+ ul{
+    background-color: aqua;
+    list-style-type: circle;
+    padding-left: 0;
+    /* list-style-position: inside; */
+ }
+table{
+    width: 100%;
+    border-collapse: collapse ;
+}
+
+th, td {
+    border: solid 1pc #eee;
+    padding: 5px;
+}
+th{
+    background-color: #f00;
+    color: white;
+    text-align: left;
+
+}
+
+tr:nth-child(even){
+    background-color: beige;
+}
+tr:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+span{
+    display: block;
+/*    display: none; */
+  /*  visibility: hidden; */
+    max-width: 300px;
+    background-color: aqua;
+}
+.inline {
+    display: inline;
+}
+#position {
+    position: relative;
+}
